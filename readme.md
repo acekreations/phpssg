@@ -4,6 +4,8 @@ PHP SSG is a simple static site generator that utilizes PHP ability to output ht
 
 ## Usage
 
+To run a build you must have PHP installed and run `php build.php`.
+
 All files should be within the `/src` directory.
 
 Build files will be outputted in the `/build` directory.
