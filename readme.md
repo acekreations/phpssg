@@ -4,6 +4,9 @@ PHP SSG is a simple static site generator that utilizes PHP ability to output ht
 
 ## Usage
 
+All files should be within the `/src` directory.
+Build files will be outputed in the `/build` directory.
+
 ## Ignore
 
 Including an underscore at the beginning of a file will ignore the file during build and will not output the file. It does not stop another php file from using `include() or require()` it.
